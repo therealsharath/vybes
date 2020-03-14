@@ -5,7 +5,7 @@ import logo from "../../vybeslogo.png";
 
 const Brand = () => {
   return (
-    <Image src={logo} alt="Company Logo" />
+    <Image src={logo} alt="DJ's Logo" />
   )
 }
 

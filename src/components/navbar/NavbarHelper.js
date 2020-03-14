@@ -25,9 +25,9 @@ const NavbarHelper = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <a href="/">Home</a>
-            <a href="/admin">Admin</a>
-            <a href="/">Our Team</a>
+            <a href="#">Home</a>
+            <a href="#">Music</a>
+            <a href="#">Contact</a>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
@@ -52,9 +52,13 @@ const NavBarHelper = styled(animated.nav)`
   width: 100%;
   top: 0;
   left: 0;
-  background: #2d3436;
+  background: rgb(41, 43, 44, 0.75);
   z-index: 1;
   font-size: 1.4rem;
+
+  @media (max-width: 769px) {
+    background: #000;
+  }
 `;
 
 const FlexContainer = styled.div`
@@ -72,18 +76,16 @@ const NavLinks = styled(animated.ul)`
   margin: auto 0;
   
   & a {
-    color: #dfe6e9;
+    font-family: 'Sen', sans-serif;
+    color: #f7f7f7;
     text-transform: uppercase;
-    font-weight: 600;
-    border-bottom: 1px solid transparent;
     margin: 0 1.5rem;
     transition: all 300ms linear 0s;
     text-decoration: none;
     cursor: pointer;
 
     &:hover {
-      color: #fdcb6e;
-      border-bottom: 1px solid #fdcb6e;
+      color: #d9534f;
     }
 
     @media (max-width: 768px) {
