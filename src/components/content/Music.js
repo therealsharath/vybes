@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import mus1 from '../../Ananda.jpg';
+import mus2 from '../../serenedreams.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './styles/Global.css';
@@ -12,16 +13,14 @@ class Music extends Component {
                 <div className="blueContainer">
                     <Carousel controls={false} keyboard={true} interval={3500} fade>
                         <Carousel.Item>
-                            <img className="musicPic" src={mus1} alt="First slide"/>
+                            <a href="http://hyperurl.co/1rgth9" target="_blank">
+                                <img className="musicPic" src={mus1} alt="First slide"/>
+                            </a>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="musicPic" src={mus1} alt="Second slide"/>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="musicPic" src={mus1} alt="Second slide"/>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img className="musicPic" src={mus1} alt="Second slide"/>
+                            <a href="http://hyperurl.co/ahsxhh" target="_blank">
+                                <img className="musicPic" src={mus2} alt="Second slide"/>
+                            </a>
                         </Carousel.Item>
                     </Carousel>
                 </div>
