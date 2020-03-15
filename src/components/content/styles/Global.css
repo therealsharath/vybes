@@ -15,11 +15,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 3vh;
 }
 
 .fullPic {
-    min-height: 20vh;
+    min-height: 10vh;
     max-height: 40vh;
     filter: brightness(90%);
 }
@@ -47,8 +48,8 @@
 }
 
 .musicPic {
-    height: 50vh;
-    width: 50vh;
+    max-height: 40vh;
+    max-width: 80vw;
 }
 
 .header {
