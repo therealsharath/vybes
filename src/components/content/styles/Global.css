@@ -47,25 +47,29 @@
 }
 
 .musicPic {
-    height: 30vh;
-    width: 30vh;
+    height: 50vh;
+    width: 50vh;
 }
 
 .header {
     font-family: 'Sen', sans-serif;
     color: white;
-    font-size: 4vh;
+    font-size: 7vh;
     padding: 2vh;
 }
 
 .blueContainer {
-    min-width: 50vw;
+    min-width: 70vw;
     min-height: 60vh;
     background-color: rgba(0, 132, 255, 0.25);
     font-family: 'Sen', sans-serif;
     color: white;
+    padding: 3vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 3vh;
+}
+
+.car {
+    width: 80%;
 }

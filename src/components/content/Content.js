@@ -7,8 +7,12 @@ class Content extends Component {
     render() {
         return(
             <div>
-                <Home id="home"/>
-                <Music id="music"/>
+                <section id="home">
+                    <Home/>
+                </section>
+                <section id="music">
+                    <Music/>
+                </section>
             </div>
         )
     }

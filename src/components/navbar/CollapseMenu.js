@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import { useSpring, animated } from 'react-spring';
 
@@ -16,9 +17,9 @@ const CollapseMenu = (props) => {
       }}
       >
         <NavLinks>
-          <li><a href="#" onClick={props.handleNavbar}>Home</a></li>
-          <li><a href="#" onClick={props.handleNavbar}>Music</a></li>
-          <li><a href="#" onClick={props.handleNavbar}>Contact</a></li>
+          <Link to="home" spy={true} smooth={true} duration={500}><a  onClick={props.handleNavbar}>Home</a></Link>
+          <Link to="music" spy={true} smooth={true} duration={500}><a  onClick={props.handleNavbar}>Music</a></Link>
+          <Link to="contact" spy={true} smooth={true} duration={500}><a  onClick={props.handleNavbar}>Contact</a></Link>
         </NavLinks>
       </CollapseWrapper>
     );
@@ -34,6 +35,7 @@ const CollapseWrapper = styled(animated.div)`
   top: 4.5rem;
   left: 0;
   right: 0;
+  z-index: 1;
 `;
 
 const NavLinks = styled.ul`

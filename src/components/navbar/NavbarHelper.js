@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { useSpring, animated, config } from 'react-spring';
+import { Link, animateScroll} from "react-scroll";
 
 import Brand from "./Brand";
 import BurgerMenu from "./BurgerMenu";
@@ -25,9 +26,9 @@ const NavbarHelper = (props) => {
         <FlexContainer>
           <Brand />
           <NavLinks style={linkAnimation}>
-            <a href="#">Home</a>
-            <a href="#">Music</a>
-            <a href="#">Contact</a>
+            <Link to="home" spy={true} smooth={true} duration={500}><a>Home</a></Link>
+            <Link to="music" spy={true} smooth={true} duration={500}><a>Music</a></Link>
+            <Link to="contact" spy={true} smooth={true} duration={500}><a>Contact</a></Link>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu
@@ -57,7 +58,7 @@ const NavBarHelper = styled(animated.nav)`
   font-size: 1.4rem;
 
   @media (max-width: 769px) {
-    background: #000;
+    background: rgba(0, 0, 0, 0.75);
   }
 `;
 
