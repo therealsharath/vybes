@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vybes/static/css/main.ba7c90ad.chunk.css",
+    "main.css": "/vybes/static/css/main.523dfd38.chunk.css",
     "main.js": "/vybes/static/js/main.f2c9f77b.chunk.js",
     "main.js.map": "/vybes/static/js/main.f2c9f77b.chunk.js.map",
     "runtime-main.js": "/vybes/static/js/runtime-main.56f1554e.js",
@@ -9,10 +9,10 @@
     "static/js/2.7a3e4f55.chunk.js": "/vybes/static/js/2.7a3e4f55.chunk.js",
     "static/js/2.7a3e4f55.chunk.js.map": "/vybes/static/js/2.7a3e4f55.chunk.js.map",
     "index.html": "/vybes/index.html",
-    "precache-manifest.99e1d1b6657246c008927de15f87c447.js": "/vybes/precache-manifest.99e1d1b6657246c008927de15f87c447.js",
+    "precache-manifest.dfb3dbc84e8e33c4e7327db80cee3b4c.js": "/vybes/precache-manifest.dfb3dbc84e8e33c4e7327db80cee3b4c.js",
     "service-worker.js": "/vybes/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/vybes/static/css/2.de424728.chunk.css.map",
-    "static/css/main.ba7c90ad.chunk.css.map": "/vybes/static/css/main.ba7c90ad.chunk.css.map",
+    "static/css/main.523dfd38.chunk.css.map": "/vybes/static/css/main.523dfd38.chunk.css.map",
     "static/js/2.7a3e4f55.chunk.js.LICENSE.txt": "/vybes/static/js/2.7a3e4f55.chunk.js.LICENSE.txt",
     "static/media/Ananda.jpg": "/vybes/static/media/Ananda.7bc03758.jpg",
     "static/media/bgVideo.mp4": "/vybes/static/media/bgVideo.6e10dde8.mp4",
@@ -24,7 +24,7 @@
     "static/js/runtime-main.56f1554e.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.7a3e4f55.chunk.js",
-    "static/css/main.ba7c90ad.chunk.css",
+    "static/css/main.523dfd38.chunk.css",
     "static/js/main.f2c9f77b.chunk.js"
   ]
 }

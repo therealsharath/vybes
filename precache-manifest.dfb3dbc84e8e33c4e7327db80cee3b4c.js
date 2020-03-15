@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a96b5695c47a0a2ea493ba6ef54453f4",
+    "revision": "8b627359c3a02f82f37e0cc281680907",
     "url": "/vybes/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vybes/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "f87977038298aa3b03df",
-    "url": "/vybes/static/css/main.ba7c90ad.chunk.css"
+    "revision": "ccb48b4ec669022ea89d",
+    "url": "/vybes/static/css/main.523dfd38.chunk.css"
   },
   {
     "revision": "4256c3c133234fcef3bc",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vybes/static/js/2.7a3e4f55.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f87977038298aa3b03df",
+    "revision": "ccb48b4ec669022ea89d",
     "url": "/vybes/static/js/main.f2c9f77b.chunk.js"
   },
   {
