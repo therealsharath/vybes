@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .App {
   text-align: center;
 }

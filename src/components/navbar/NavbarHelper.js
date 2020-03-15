@@ -28,7 +28,7 @@ const NavbarHelper = (props) => {
           <NavLinks style={linkAnimation}>
             <Link to="home" spy={true} smooth={true} duration={500}><a>Home</a></Link>
             <Link to="music" spy={true} smooth={true} duration={500}><a>Music</a></Link>
-            <Link to="contact" spy={true} smooth={true} duration={500}><a>Contact</a></Link>
+            <Link to="socials" spy={true} smooth={true} duration={500}><a>Find Me</a></Link>
           </NavLinks>
           <BurgerWrapper>
             <BurgerMenu

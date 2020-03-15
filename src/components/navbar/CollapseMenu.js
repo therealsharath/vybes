@@ -19,7 +19,7 @@ const CollapseMenu = (props) => {
         <NavLinks>
           <Link to="home" spy={true} smooth={true} duration={500}><a  onClick={props.handleNavbar}>Home</a></Link>
           <Link to="music" spy={true} smooth={true} duration={500}><a  onClick={props.handleNavbar}>Music</a></Link>
-          <Link to="contact" spy={true} smooth={true} duration={500}><a  onClick={props.handleNavbar}>Contact</a></Link>
+          <Link to="socials" spy={true} smooth={true} duration={500}><a  onClick={props.handleNavbar}>Find Me</a></Link>
         </NavLinks>
       </CollapseWrapper>
     );

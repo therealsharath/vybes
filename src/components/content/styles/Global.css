@@ -59,6 +59,7 @@
 }
 
 .blueContainer {
+    z-index: 0;
     min-width: 70vw;
     min-height: 60vh;
     background-color: rgba(0, 132, 255, 0.25);
