@@ -14,8 +14,7 @@ class Home extends Component {
                         <text className="I2">di</text>
                         <text className="I3">a.</text>
                         <br/>
-                        Consequat Lorem labore voluptate excepteur ad. 
-                        Aliqua mollit sit proident et veniam dolore cillum adipisicing. 
+                        I sprinkle Indian culture into my music.
                     </div>
                 </div>
             </div>
